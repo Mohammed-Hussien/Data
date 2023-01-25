@@ -106,5 +106,10 @@ namespace Data
         {
 
         }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
