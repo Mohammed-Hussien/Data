@@ -42,7 +42,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -188,13 +187,6 @@
             this.label3.TabIndex = 27;
             this.label3.Text = "Employee";
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(12, 447);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(207, 23);
-            this.textBox2.TabIndex = 26;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -258,7 +250,6 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel1);
@@ -290,7 +281,6 @@
         private TextBox textBox1;
         private Label label4;
         private Label label3;
-        private TextBox textBox2;
         private Label label2;
         private Label label1;
         private Label label5;
