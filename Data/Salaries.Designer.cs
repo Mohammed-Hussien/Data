@@ -31,7 +31,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label7 = new System.Windows.Forms.Label();
@@ -46,6 +45,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -79,17 +80,6 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(205, 23);
             this.comboBox2.TabIndex = 39;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "male",
-            "female"});
-            this.comboBox1.Location = new System.Drawing.Point(14, 541);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(205, 23);
-            this.comboBox1.TabIndex = 38;
             // 
             // pictureBox1
             // 
@@ -157,6 +147,7 @@
             this.label6.Size = new System.Drawing.Size(165, 21);
             this.label6.TabIndex = 30;
             this.label6.Text = "Employee Department";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox1
             // 
@@ -168,12 +159,13 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Teal;
             this.label4.Location = new System.Drawing.Point(14, 495);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 15);
+            this.label4.Size = new System.Drawing.Size(109, 21);
             this.label4.TabIndex = 28;
-            this.label4.Text = "Employee Gender";
+            this.label4.Text = "Days attended";
             // 
             // label3
             // 
@@ -230,16 +222,35 @@
             this.panel1.Size = new System.Drawing.Size(1913, 133);
             this.panel1.TabIndex = 24;
             // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "male",
+            "female"});
+            this.comboBox3.Location = new System.Drawing.Point(16, 457);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(205, 23);
+            this.comboBox3.TabIndex = 42;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(17, 537);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(207, 23);
+            this.textBox2.TabIndex = 43;
+            // 
             // Salaries
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1913, 1147);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label7);
@@ -270,7 +281,6 @@
         private Button button2;
         private Button button1;
         private ComboBox comboBox2;
-        private ComboBox comboBox1;
         private PictureBox pictureBox1;
         private FlowLayoutPanel flowLayoutPanel1;
         private Label label7;
@@ -285,5 +295,7 @@
         private Label label1;
         private Label label5;
         private Panel panel1;
+        private ComboBox comboBox3;
+        private TextBox textBox2;
     }
 }
