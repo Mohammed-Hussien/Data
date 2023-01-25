@@ -226,7 +226,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(164, 26);
             this.button1.TabIndex = 22;
-            this.button1.Text = "Login";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Employee
