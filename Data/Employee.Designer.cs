@@ -32,19 +32,21 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -93,13 +95,6 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Employee Name";
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(12, 520);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(207, 29);
-            this.textBox3.TabIndex = 6;
-            // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(12, 447);
@@ -147,13 +142,6 @@
             this.textBox1.Size = new System.Drawing.Size(207, 29);
             this.textBox1.TabIndex = 10;
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(14, 611);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(207, 29);
-            this.textBox4.TabIndex = 11;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -200,12 +188,45 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1913, 56);
             this.flowLayoutPanel1.TabIndex = 18;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Data.Form1.images;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 218);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(111, 109);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "male",
+            "female"});
+            this.comboBox1.Location = new System.Drawing.Point(14, 541);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(205, 29);
+            this.comboBox1.TabIndex = 20;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(14, 627);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(205, 29);
+            this.comboBox2.TabIndex = 21;
+            // 
             // Employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1913, 1147);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
@@ -214,10 +235,8 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
@@ -228,6 +247,7 @@
             this.Text = "Employee";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -239,17 +259,18 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox3;
         private TextBox textBox2;
         private Label label4;
         private Label label5;
         private Label label6;
         private TextBox textBox1;
-        private TextBox textBox4;
         private Label label7;
         private Label label8;
         private TextBox textBox5;
         private TextBox textBox6;
         private FlowLayoutPanel flowLayoutPanel1;
+        private PictureBox pictureBox1;
+        private ComboBox comboBox1;
+        private ComboBox comboBox2;
     }
 }
