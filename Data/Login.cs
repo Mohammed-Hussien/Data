@@ -13,6 +13,7 @@ namespace Data
             // 
             // Form1
             // 
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(591, 548);
             this.Name = "Form1";
             this.ResumeLayout(false);
