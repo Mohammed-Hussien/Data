@@ -144,14 +144,14 @@
             this.label6.ForeColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(16, 573);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(165, 21);
+            this.label6.Size = new System.Drawing.Size(54, 21);
             this.label6.TabIndex = 30;
-            this.label6.Text = "Employee Department";
+            this.label6.Text = "Period";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(14, 684);
+            this.textBox1.Location = new System.Drawing.Point(14, 699);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(207, 23);
             this.textBox1.TabIndex = 29;
@@ -205,11 +205,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(16, 659);
+            this.label5.Location = new System.Drawing.Point(17, 667);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 15);
+            this.label5.Size = new System.Drawing.Size(83, 15);
             this.label5.TabIndex = 31;
-            this.label5.Text = "Date of birth";
+            this.label5.Text = "Salary amount";
             // 
             // panel1
             // 
