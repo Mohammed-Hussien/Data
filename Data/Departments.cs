@@ -24,10 +24,9 @@ namespace EmployeeMgmt1
     {
         string Query = "Select * from DepartmentTb1";
         DepList.DataSource = Con.GetData(Query);
-
-
-
     }
+    private void AddBtn_Click(object sender, EventArgs e)
+    {
 
 
         
