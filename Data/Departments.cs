@@ -44,6 +44,9 @@ namespace EmployeeMgmt1
                 DepNameTb.Text = "";
             }
         }
+        catch (Exception Ex)
+        {
+
 
 
         
