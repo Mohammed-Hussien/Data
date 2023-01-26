@@ -86,6 +86,8 @@ namespace EmployeeMgmt1
             MessageBox.Show(Ex.Message);
         }
     }
+    private void DeleteBtn_Click(object sender, EventArgs e)
+    {
 
 
 
