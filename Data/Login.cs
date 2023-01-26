@@ -9,3 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 namespace EmployeeMgmt1
 {
+    public partial class login : Form
+    {
+        public login()
+        {
