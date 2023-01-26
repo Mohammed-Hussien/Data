@@ -52,3 +52,7 @@ namespace EmployeeMgmt1
         {
 
         }
+        private void Employees_Load(object sender, EventArgs e)
+        {
+
+        }
