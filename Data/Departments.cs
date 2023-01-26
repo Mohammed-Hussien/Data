@@ -35,5 +35,6 @@ namespace EmployeeMgmt1
             }
             else
             {
+                string Dep = DepNameTb.Text;
 
         
