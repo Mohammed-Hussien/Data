@@ -56,6 +56,9 @@ namespace EmployeeMgmt1
         if (DepNameTb.Text == "")
         {
             key = 0;
+        }
+        else
+        {
 
 
 
