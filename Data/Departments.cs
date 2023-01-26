@@ -48,6 +48,8 @@ namespace EmployeeMgmt1
         {
             MessageBox.Show(Ex.Message);
         }
+    }
+    int key = 0;
 
 
 
