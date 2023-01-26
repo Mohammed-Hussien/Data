@@ -207,7 +207,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Data.Form1.fire_department1;
             this.pictureBox1.Location = new System.Drawing.Point(36, 218);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(111, 109);
@@ -245,6 +244,7 @@
             this.button1.TabIndex = 22;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -259,7 +259,6 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Data.Form1.logout_icon_template_black_color_editable_log_out_icon_symbol_flat_illustration_for_graphic_and_web_design_free_vector;
             this.pictureBox5.Location = new System.Drawing.Point(1473, 339);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(84, 61);
@@ -280,7 +279,6 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Data.Form1.salary_icon_16576;
             this.pictureBox4.Location = new System.Drawing.Point(1243, 348);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(54, 36);
@@ -290,7 +288,6 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Data.Form1.images2;
             this.pictureBox3.Location = new System.Drawing.Point(702, 348);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(68, 52);
@@ -300,7 +297,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Data.Form1.images3;
             this.pictureBox2.Location = new System.Drawing.Point(973, 348);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(68, 52);

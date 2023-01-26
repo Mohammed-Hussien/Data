@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rqHaajDhO9DVMTcu4bNVVOWskQVbfirbavA5W5HOY1ISDJNbp9uePyeK6VHzZWaFKMV1YaJwR4RvXAigDKK+DQ==",
+  "dgSpecHash": "LVX+DcnDPH6cTpC3NQM4w3QOnaQEHS2qZ+PcgN3BfigXkIGwWbReJRvoHyH6rskvLzqeHIXYC2Csix9e/TEraQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mohamed\\source\\repos\\Data\\Data\\Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mohamed\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.2\\guna.ui2.winforms.2.0.4.2.nupkg.sha512",
+    "C:\\Users\\Mohamed\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mohamed\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

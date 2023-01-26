@@ -2,6 +2,7 @@ namespace Data
 {
     public partial class Form1 : Form
     {
+        internal static Image images;
         private Label label1;
         private PictureBox pictureBox1;
         private TextBox textBox2;
