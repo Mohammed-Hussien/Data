@@ -88,3 +88,4 @@ namespace EmployeeMgmt1
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Emoloyee Updated!!!");
+                    EmpNameTb.Text = "";
