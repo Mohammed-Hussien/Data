@@ -24,3 +24,5 @@ namespace EmployeeMgmt1
         {
             try
             {
+                string Query = "Select * from EmployeeTb1";
+                EmployeeList.DataSource = Con.GetData(Query);
