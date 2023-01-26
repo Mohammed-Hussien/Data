@@ -101,3 +101,7 @@ namespace EmployeeMgmt1
         }
         private void DeleteBtn_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (key == 0)
+                {
