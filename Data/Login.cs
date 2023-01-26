@@ -13,3 +13,11 @@ namespace EmployeeMgmt1
     {
         public login()
         {
+            InitializeComponent();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
