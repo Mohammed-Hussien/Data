@@ -20,3 +20,5 @@ namespace EmployeeMgmt1
             ShowEmp();
             GetDepartment();
         }
+        private void ShowEmp()
+        {
