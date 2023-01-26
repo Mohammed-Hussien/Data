@@ -72,6 +72,8 @@ namespace EmployeeMgmt1
             }
             else
             {
+                string Dep = DepNameTb.Text;
+                string Query = "Update DepartmentTb1 set Depname = '{0}' where Depid = {1}";
 
 
 
