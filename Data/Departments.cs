@@ -93,6 +93,9 @@ namespace EmployeeMgmt1
             if (DepNameTb.Text == "")
             {
                 MessageBox.Show("missing data!!!");
+            }
+            else
+            {
 
 
 
