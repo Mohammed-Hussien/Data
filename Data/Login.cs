@@ -42,3 +42,23 @@ namespace EmployeeMgmt1
                 Obj.Show();
                 this.Hide();
             }
+            else
+            {
+                MessageBox.Show("wrong user name or password!!!");
+                UNameTb.Text = "";
+                PasswordTb.Text = "";
+            }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ResetLbl_Click(object sender, EventArgs e)
+        {
+            UNameTb.Text = "";
+            PasswordTb.Text = "";
+        }
+    }
+}
