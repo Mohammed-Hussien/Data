@@ -64,6 +64,8 @@ namespace EmployeeMgmt1
     }
     private void EditBtn_Click(object sender, EventArgs e)
     {
+        try
+        {
 
 
 
