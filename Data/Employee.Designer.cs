@@ -207,7 +207,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Data.Form1.images;
+            /*this.pictureBox1.Image = global::Data.Form1.images;*/
             this.pictureBox1.Location = new System.Drawing.Point(36, 218);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(111, 109);
@@ -259,7 +259,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Data.Form1.fire_department;
+           /* this.pictureBox5.Image = global::Data.Form1.fire_department;*/
             this.pictureBox5.Location = new System.Drawing.Point(1473, 348);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(59, 36);
@@ -280,7 +280,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Data.Form1.salary_icon_0;
+           /* this.pictureBox4.Image = global::Data.Form1.salary_icon_0;*/
             this.pictureBox4.Location = new System.Drawing.Point(1243, 348);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(54, 36);
@@ -290,7 +290,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Data.Form1.images1;
+            /*this.pictureBox3.Image = global::Data.Form1.images1;*/
             this.pictureBox3.Location = new System.Drawing.Point(702, 348);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(60, 36);
@@ -300,7 +300,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Data.Form1.fire_department;
+           /* this.pictureBox2.Image = global::Data.Form1.fire_department;*/
             this.pictureBox2.Location = new System.Drawing.Point(973, 348);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(59, 36);
