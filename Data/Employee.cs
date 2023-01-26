@@ -8,3 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+namespace EmployeeMgmt1
+{
+    public partial class Employees : Form
+    {
+        Functions Con;
+        public Employees()
+        {
+            InitializeComponent();
+            Con = new Functions();
+            ShowEmp();
+            GetDepartment();
+        }
+        private void ShowEmp()
+        {
+            try
+            {
