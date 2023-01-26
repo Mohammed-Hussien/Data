@@ -89,3 +89,6 @@ namespace EmployeeMgmt1
                     ShowEmp();
                     MessageBox.Show("Emoloyee Updated!!!");
                     EmpNameTb.Text = "";
+                    DailySalTb.Text = "";
+                    GenCb.SelectedIndex = -1;
+                    DepCb.SelectedIndex = -1;
