@@ -53,6 +53,8 @@ namespace EmployeeMgmt1
     private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
     {
         DepNameTb.Text = DepList.SelectedRows[0].Cells[0].Value.ToString();
+        if (DepNameTb.Text == "")
+        {
 
 
 
