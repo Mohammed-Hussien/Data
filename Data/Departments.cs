@@ -42,7 +42,8 @@ namespace EmployeeMgmt1
                 ShowDepartments();
                 MessageBox.Show("Department Added!!!");
                 DepNameTb.Text = "";
-
+            }
+        }
 
 
         
