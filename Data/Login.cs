@@ -34,3 +34,5 @@ namespace EmployeeMgmt1
         {
             if (UNameTb.Text == "" || PasswordTb.Text == "")
             {
+                MessageBox.Show("Missing Data!!!");
+            }
