@@ -110,6 +110,8 @@ namespace EmployeeMgmt1
             MessageBox.Show(Ex.Message);
         }
     }
+    private void EmpLbl_Click(object sender, EventArgs e)
+    {
 
 
 
