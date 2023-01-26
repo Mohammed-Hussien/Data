@@ -40,6 +40,7 @@ namespace EmployeeMgmt1
                 Query = string.Format(Query, DepNameTb.Text);
                 Con.SetData(Query);
                 ShowDepartments();
+                MessageBox.Show("Department Added!!!");
 
 
 
