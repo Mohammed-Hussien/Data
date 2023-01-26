@@ -36,3 +36,9 @@ namespace EmployeeMgmt1
             {
                 MessageBox.Show("Missing Data!!!");
             }
+            else if (UNameTb.Text == "Admin" && PasswordTb.Text == "Password")
+            {
+                Employees Obj = new Employees();
+                Obj.Show();
+                this.Hide();
+            }
