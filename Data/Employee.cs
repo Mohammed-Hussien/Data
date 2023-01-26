@@ -72,3 +72,6 @@ namespace EmployeeMgmt1
             try
             {
                 if (EmpNameTb.Text == "" || GenCb.SelectedIndex == -1 || DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
+                {
+                    MessageBox.Show("missing data!!!");
+                }
