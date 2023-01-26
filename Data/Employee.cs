@@ -77,3 +77,5 @@ namespace EmployeeMgmt1
                 }
                 else
                 {
+                    string Name = EmpNameTb.Text;
+                    string Gender = GenCb.SelectedItem.ToString();
