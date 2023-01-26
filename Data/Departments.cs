@@ -50,6 +50,8 @@ namespace EmployeeMgmt1
         }
     }
     int key = 0;
+    private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+    {
 
 
 
